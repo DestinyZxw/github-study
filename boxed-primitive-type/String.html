@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>String类型</title>
+</head>
+<script>
+
+    // charAt() charCodeAt() 输出字符编码
+
+    // concat()   一般使用‘+’
+
+    // 基于子字符串创建新字符串
+    // slice substr substring
+    // 参数1 起始位 参数二 结束位 ， substr 第二参数表示 返回的字符串个数
+
+    // 参数 负值则功能不一致
+
+    /*    // match()   = RegExp.exec()
+        var str= 'zxw qq wechart qq alipay';
+        var patten=/.q/;
+
+        var matches=str.match(patten);
+
+        console.log(matches.index);
+        console.log(matches[0]);
+        console.log(patten.lastIndex);*/
+
+    // search
+    // 找到返回索引，否则 -1
+    /*    var url = 'http://www.baidu.com?state=1';
+
+        var searchResult=url.search(/www.baidu/);
+
+        console.log(searchResult)*/
+
+    // replace 替换字符串
+    // 参数二  特殊字符序列
+    var text = 'cat,bat,sat,fat';
+    var newText = text.replace(/at/g, 'ccc');
+    console.log(newText)
+
+
+</script>
+<body>
+
+</body>
+</html>
